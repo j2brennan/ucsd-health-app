@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>UCSD Health Concierge Experience Initiative</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f5f5f5;
+        }
+        .slide-container {
+            width: 960px;
+            height: 540px;
+            margin: 20px auto;
+            background: white;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            position: relative;
+            overflow: hidden;
+            page-break-after: always;
+        }
+        .slide {
+            width: 100%;
+            height: 100%;
+            padding: 30px;
+            box-sizing: border-box;
+            position: relative;
+        }
+        .header {
+            height: 80px;
+            background: #006A96; /* UCSD Blue */
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            color: white;
+            padding: 10px 30px;
+            display: flex;
+            align-items: center;
+        }
+        .footer {
+            height: 40px;
+            background: #006A96; /* UCSD Blue */
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            color: white;
+            padding: 5px 30px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            font-size: 14px;
+        }
+        .content {
+            padding-top: 100px;
+            padding-bottom: 60px;
+            height: calc(100% - 160px);
+            overflow: hidden;
+        }
+        .content4 {
+            padding-top: 100px;
+            padding-bottom: 60px;
+            height: calc(100% - 160px);
+            overflow: hidden;
+        }
+        .title-slide {
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 100%;
+            background: linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.9)), url('patient-experience-header.jpg') center/cover;
+        }
+        .title-slide h1 {
+            color: #006A96;
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+        .title-slide h2 {
+            color: #333;
+            font-size: 24px;
+            margin-bottom: 30px;
+        }
+        .title-slide p {
+            color: #555;
+            font-size: 18px;
+            margin: 5px 0;
+        }
+        h1 {
+            color: #006A96;
+            font-size: 28px;
+            margin-top: 0;
+            margin-bottom: 22px;
+        }
+        h2 {
+            color: #006A96;
+            font-size: 24px;
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+        h3 {
+            color: #333;
+            font-size: 20px;
+            margin-top: 10px;
+            margin-bottom: 15px;
+        }
+        ul, ol {
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+        li {
+            margin-bottom: 10px;
+            font-size: 18px;
+            color: #333;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 10px 0;
+        }
+        th, td {
+            padding: 8px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+        th {
+            background-color: #006A96;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        .logo {
+            position: absolute;
+            top: 20px;
+            right: 30px;
+            height: 50px;
+        }
+        blockquote {
+            font-style: italic;
+            border-left: 4px solid #006A96;
+            padding-left: 20px;
+            margin: 20px 0;
+            color: #555;
+            font-size: 18px;
+        }
+        .two-column {
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+            justify-content : center;
+        }
+        .three-column {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            justify-content : center;
+        }
+        .column {
+            width: 35%;
+        }
+        .list-item{
+            font-size: 17px;
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Slide 1: Title -->
+    <div class="slide-container">
+        <div class="slide title-slide">
+            <img src="UCSD-Health-Logo.png" alt="UCSD Health Logo" class="logo">
+            <h1>UCSD Health Concierge Experience Initiative</h1>
+            <h2>Transforming Patient Care Through AI-Powered Services</h2>
+            <p>Prepared by: Cali Coding LLC</p>
+            <p>Date: April 30th, 2025</p>
+        </div>
+    </div>
+
+    <!-- Slide 2: Objective -->
+    <div class="slide-container">
+        <div class="slide">
+            <div class="header">
+                <h2>UCSD Health Concierge Experience Initiative</h2>
+            </div>
+            <div class="content">
+                <h1>Objective</h1>
+                <ul>
+                    <li>To address UCSD Health's urgent operational challenges:
+                        <ul>
+                            <li>Significant financial losses ($75-100M projected)</li>
+                            <li>Labor unrest</li>
+                            <li>Patient experience concerns</li>
+                        </ul>
+                    </li>
+                    <li>Transform the Patient Experience Division from a cost center to a revenue-generating service line</li>
+                    <li>Deploy a full-stack, AI-powered patient experience solution</li>
+                    <li>Achieve superior patient satisfaction, operational efficiency, and open new premium service streams</li>
+                </ul>
+            </div>
+            <div class="footer">
+                <div>UCSD Health Concierge Experience Initiative</div>
+                <div>April 30th, 2025</div>
+            </div>
+            <img src="UCSD-Health-Logo.png" alt="UCSD Health Logo" class="logo">
+        </div>
+    </div>
+
+    <!-- Slide 3: Vision -->
+    <div class="slide-container">
+        <div class="slide">
+            <div class="header">
+                <h2>UCSD Health Concierge Experience Initiative</h2>
+            </div>
+            <div class="content">
+                <h1>Vision</h1>
+                <p>Deliver a world-class, tech-enabled patient experience that:</p>
+                <ul>
+                    <li>Redefines healthcare hospitality</li>
+                    <li>Improves hospital operations</li>
+                    <li>Generates new revenue streams</li>
+                    <li>Elevates UCSD Health as the premier health institution nationally</li>
+                </ul>
+            </div>
+            <div class="footer">
+                <div>UCSD Health Concierge Experience Initiative</div>
+                <div>April 30th, 2025</div>
+            </div>
+            <img src="UCSD-Health-Logo.png" alt="UCSD Health Logo" class="logo">
+        </div>
+    </div>
+
+    <!-- Slide 4: System Overview -->
+    <div class="slide-container">
+        <div class="slide">
+            <div class="header">
+                <h2>UCSD Health Concierge Experience Initiative</h2>
+            </div>
+            <div class="content-4">
+                <h1>System Overview: Health Experience as a Service (HEaaS)</h1>
+                <br/>
+                <h3>Core Components:</h3>
+                <div class="three-column">
+                    <div class="column">
+                        <h4>1. Patient Concierge Mobile App</h3>
+                        <ul>
+                            <li class="list-item">Bed status updates</li>
+                            <li class="list-item">Parking/wayfinding assistance</li>
+                            <li class="list-item">Real-time notifications</li>
+                            <li class="list-item">AI assistant for support and FAQs</li>
+                        </ul>
+                    </div>
+                    <div class="column">
+                        <h4>2. AI Bed and Service Bot</h3>
+                        <ul>
+                            <li class="list-item">LLM-based conversational agent</li>
+                            <li class="list-item">Answers key logistical questions</li>
+                            <li class="list-item">Supports patients and families</li>
+                        </ul>
+                    </div>
+                    <div class="column">
+                        <h4>3. VIP Premium Packages</h3>
+                        <ul>
+                            <li class="list-item">Paid upgrades (transport, lounges)</li>
+                            <li class="list-item">Wellness services</li>
+                            <li class="list-item">Personalized digital concierge</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="two-column">
+                    <div class="column">
+                        <h4>4. Operational Dashboard</h3>
+                        <ul>
+                            <li class="list-item">Real-time patient and bed data</li>
+                            <li class="list-item">Proactive anomaly detection</li>
+                        </ul>
+                    </div>
+                    <div class="column">
+                        <h4>5. Post-Discharge Services</h3>
+                        <ul>
+                            <li class="list-item">White-glove recovery assistance</li>
+                            <li class="list-item">Wellness check-ins and telehealth</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <div>UCSD Health Concierge Experience Initiative</div>
+                <div>April 30th, 2025</div>
+            </div>
+            <img src="UCSD-Health-Logo.png" alt="UCSD Health Logo" class="logo">
+        </div>
+    </div>
+
+    <!-- Slide 5: Phase 1 MVP -->
+    <div class="slide-container">
+        <div class="slide">
+            <div class="header">
+                <h2>UCSD Health Concierge Experience Initiative</h2>
+            </div>
+            <div class="content">
+                <h1>Phase 1: Minimum Viable Product (MVP)</h1>
+                <h3>Timeline: 90 Days</h3>
+                <table>
+                    <tr>
+                        <th>Month</th>
+                        <th>Deliverable</th>
+                        <th>Details</th>
+                    </tr>
+                    <tr>
+                        <td>Month 1</td>
+                        <td>Basic Patient Concierge App</td>
+                        <td>Bed status (simulated data), parking/wayfinding info, welcome notifications</td>
+                    </tr>
+                    <tr>
+                        <td>Month 2</td>
+                        <td>AI Bed Status Bot Pilot</td>
+                        <td>LLM trained on FAQs to answer typical ER and patient questions</td>
+                    </tr>
+                    <tr>
+                        <td>Month 3</td>
+                        <td>Launch Pilot Premium Package</td>
+                        <td>Paid services offered to a limited group of patients/families</td>
+                    </tr>
+                </table>
+                <h4>Deployment Infrastructure:</h4>
+                <ul>
+                    <li>Servers located at UCSD CSE Building, San Diego Office, and Sunnyvale CA Office</li>
+                    <li>HIPAA compliance practices in place</li>
+                </ul>
+            </div>
+            <div class="footer">
+                <div>UCSD Health Concierge Experience Initiative</div>
+                <div>April 30th, 2025</div>
+            </div>
+            <img src="UCSD-Health-Logo.png" alt="UCSD Health Logo" class="logo">
+        </div>
+    </div>
+
+    <!-- Slide 6: Strategic Benefits -->
+    <div class="slide-container">
+        <div class="slide">
+            <div class="header">
+                <h2>UCSD Health Concierge Experience Initiative</h2>
+            </div>
+            <div class="content">
+                <h1>Strategic Benefits</h1>
+                <ul>
+                    <li><strong>Revenue Generation:</strong> Turn patient experience into a premium, profitable service</li>
+                    <li><strong>Operational Cost Reduction:</strong> Automate communication and logistics to minimize labor burden</li>
+                    <li><strong>Patient Loyalty:</strong> Enhance brand reputation through unforgettable experiences</li>
+                    <li><strong>Competitive Differentiation:</strong> Surpass local competition (Scripps, Sharp, Kaiser) in patient satisfaction</li>
+                    <li><strong>Scalability:</strong> Expand services to UCSD VA and regional healthcare partners</li>
+                </ul>
+            </div>
+            <div class="footer">
+                <div>UCSD Health Concierge Experience Initiative</div>
+                <div>April 30th, 2025</div>
+            </div>
+            <img src="UCSD-Health-Logo.png" alt="UCSD Health Logo" class="logo">
+        </div>
+    </div>
+
+    <!-- Slide 7: Financial Model -->
+    <div class="slide-container">
+        <div class="slide">
+            <div class="header">
+                <h2>UCSD Health Concierge Experience Initiative</h2>
+            </div>
+            <div class="content">
+                <h1>Financial Model (Preliminary)</h1>
+                <ul>
+                    <li><strong>Core App Services:</strong> Included as baseline improvement to reduce staff workload and improve patient satisfaction</li>
+                    <li><strong>Premium Upgrades:</strong> $500 - $2,000 per patient for premium packages
+                        <ul>
+                            <li>Transport</li>
+                            <li>Luxury lounge access</li>
+                            <li>Wellness concierge</li>
+                        </ul>
+                    </li>
+                    <li><strong>Optional monthly wellness subscription:</strong> $50 - $200/month for post-discharge support</li>
+                    <li><strong>Potential revenue per 100 VIP patients annually:</strong> $1M+</li>
+                </ul>
+            </div>
+            <div class="footer">
+                <div>UCSD Health Concierge Experience Initiative</div>
+                <div>April 30th, 2025</div>
+            </div>
+            <img src="UCSD-Health-Logo.png" alt="UCSD Health Logo" class="logo">
+        </div>
+    </div>
+
+    <!-- Slide 8: Next Steps -->
+    <div class="slide-container">
+        <div class="slide">
+            <div class="header">
+                <h2>UCSD Health Concierge Experience Initiative</h2>
+            </div>
+            <div class="content">
+                <h1>Next Steps</h1>
+                <ol>
+                    <li>Validate interest with key UCSD Health leadership (Patient Experience, Operations, Strategy)</li>
+                    <li>Establish technical integration path with Epic Systems (FHIR APIs)</li>
+                    <li>Develop internal demo for concierge app and AI FAQ bot</li>
+                    <li>Pilot rollout in Emergency Department (ED) and high-traffic inpatient units</li>
+                    <li>Form core project team with representatives from:
+                        <ul>
+                            <li>IT</li>
+                            <li>Nursing</li>
+                            <li>Patient Experience</li>
+                            <li>Administration</li>
+                        </ul>
+                    </li>
+                </ol>
+            </div>
+            <div class="footer">
+                <div>UCSD Health Concierge Experience Initiative</div>
+                <div>April 30th, 2025</div>
+            </div>
+            <img src="UCSD-Health-Logo.png" alt="UCSD Health Logo" class="logo">
+        </div>
+    </div>
+
+    <!-- Slide 9: Conclusion -->
+    <div class="slide-container">
+        <div class="slide">
+            <div class="header">
+                <h2>UCSD Health Concierge Experience Initiative</h2>
+            </div>
+            <div class="content">
+                <h1>Conclusion</h1>
+                <p>The UCSD Health Concierge Experience initiative represents an actionable, practical, and scalable opportunity to:</p>
+                <ul>
+                    <li>Immediately address current operational pain points</li>
+                    <li>Position UCSD Health as the national leader in patient-centered healthcare innovation</li>
+                    <li>Create exceptional value for patients, families, hospital staff, and the broader UCSD Health enterprise</li>
+                </ul>
+                <blockquote>"Healthcare should be healing from the moment you enter the hospital — not just when the doctor enters the room."</blockquote>
+                <div style="margin-top: 30px;">
+                    <p><strong>Contact:</strong><br>
+                    Joseph Brennan<br>
+                    Cali Coding LLC<br>
+                    joe@calicoding.com</p>
+                </div>
+            </div>
+            <div class="footer">
+                <div>UCSD Health Concierge Experience Initiative</div>
+                <div>April 30th, 2025</div>
+            </div>
+            <img src="UCSD-Health-Logo.png" alt="UCSD Health Logo" class="logo">
+        </div>
+    </div>
+</body>
+</html>
